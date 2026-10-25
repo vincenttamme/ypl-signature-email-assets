@@ -1,0 +1,49 @@
+﻿{
+  "schemaVersion": 1,
+  "purpose": "YPL and Y247 Group email signature images",
+  "urlPolicy": "Pin URLs to a published Git commit SHA. Each asset path is nested under the first 12 characters of its SHA-256.",
+  "assets": [
+    {
+      "id": "ypl-logo",
+      "path": "email-assets/v1/08dd1e3a5fbf/logos/ypl-logo-338x80-2x.png",
+      "mimeType": "image/png",
+      "dimensions": "338x80",
+      "displayDimensions": "169x40",
+      "bytes": 2965,
+      "sha256": "08dd1e3a5fbfd5f830a39200b196196338a4b3d166175bfdc61c449a3a0cc5f0",
+      "approval": "approved by project owner for public distribution"
+    },
+    {
+      "id": "y247-group-logo",
+      "path": "email-assets/v1/9151520f005c/logos/y247-group-logo-180x80-2x.png",
+      "mimeType": "image/png",
+      "dimensions": "180x80",
+      "displayDimensions": "90x40",
+      "bytes": 4434,
+      "sha256": "9151520f005c6c39bc0d293cea9cc673040dd0cc3825d9d960ecf8907d3d39fa",
+      "approval": "approved by project owner for public distribution"
+    },
+    {
+      "id": "mail-icon",
+      "path": "email-assets/v1/698190cf8a21/icons/mail-32.png",
+      "mimeType": "image/png",
+      "dimensions": "32x32",
+      "displayDimensions": "16x16",
+      "bytes": 602,
+      "sha256": "698190cf8a21dd168939f9ccdce54654b99a18eb0794139d8c430c36cbce9a9d",
+      "license": "ISC; see LICENSES/LUCIDE-ISC-LICENSE.txt",
+      "approval": "approved by project owner for public distribution"
+    },
+    {
+      "id": "phone-icon",
+      "path": "email-assets/v1/0fe01c5812b6/icons/phone-32.png",
+      "mimeType": "image/png",
+      "dimensions": "32x32",
+      "displayDimensions": "16x16",
+      "bytes": 770,
+      "sha256": "0fe01c5812b6238cf8fdb426ca5986a5e09ff2d1d73b83f6285109918dbb871d",
+      "license": "ISC; see LICENSES/LUCIDE-ISC-LICENSE.txt",
+      "approval": "approved by project owner for public distribution"
+    }
+  ]
+}
