@@ -1,4 +1,4 @@
-﻿{
+{
   "schemaVersion": 1,
   "purpose": "YPL and Y247 Group email signature images",
   "urlPolicy": "Pin URLs to a published Git commit SHA. Each asset path is nested under the first 12 characters of its SHA-256.",
@@ -44,6 +44,19 @@
       "sha256": "0fe01c5812b6238cf8fdb426ca5986a5e09ff2d1d73b83f6285109918dbb871d",
       "license": "ISC; see LICENSES/LUCIDE-ISC-LICENSE.txt",
       "approval": "approved by project owner for public distribution"
+    },
+    {
+      "id": "social-share-lucide",
+      "path": "email-assets/v1/94a1113130c3/icons/social-share-32.png",
+      "mimeType": "image/png",
+      "dimensions": "32x32",
+      "displayDimensions": "16x16",
+      "bytes": 838,
+      "sha256": "94a1113130c339cec94596ee367ac8b7f26b315e4cee564ce190b8af2ea15a4e",
+      "source": "@lucide/svelte 1.61.0 Share2 icon, rasterized to transparent 32×32 PNG",
+      "license": "ISC; see LICENSES/LUCIDE-ISC-LICENSE.txt",
+      "purpose": "Generic share glyph for social links; not a social-brand logo.",
+      "approval": "project owner requested a public-library icon compatible with email HTML"
     }
   ]
 }
