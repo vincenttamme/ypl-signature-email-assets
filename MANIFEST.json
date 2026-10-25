@@ -57,6 +57,49 @@
       "license": "ISC; see LICENSES/LUCIDE-ISC-LICENSE.txt",
       "purpose": "Generic share glyph for social links; not a social-brand logo.",
       "approval": "project owner requested a public-library icon compatible with email HTML"
+    },
+    {
+      "id": "instagram-glyph",
+      "path": "email-assets/v1/86fa6a71416d/social/instagram-glyph-gradient-32.png",
+      "mimeType": "image/png",
+      "dimensions": "32x32",
+      "displayDimensions": "29x29",
+      "bytes": 2408,
+      "sha256": "86fa6a71416d8d03e83578f653b0e223b682ec4a8073ff7ace8e37702b0d7676",
+      "source": "Instagram_Glyph_Gradient.png from the official IG brand asset pack downloaded from Meta’s Brand Resource Center after accepting its guidelines.",
+      "sourceUrl": "https://www.meta.com/brand/resources/instagram/instagram-brand/",
+      "guidelinesUrl": "https://www.meta.com/brand/resources/instagram/instagram-brand/",
+      "processing": "Proportionally downscaled to fit a transparent 32x32 PNG canvas; artwork was not recolored, cropped, or stretched."
+    },
+    {
+      "id": "linkedin-in-bug",
+      "path": "email-assets/v1/4ac91f746b67/social/linkedin-inbug-white-32.png",
+      "mimeType": "image/png",
+      "dimensions": "32x32",
+      "displayDimensions": "23x23",
+      "bytes": 579,
+      "sha256": "4ac91f746b67c1860420999b98a9424dc0009bf7ca97fdb06e1509858711a933",
+      "source": "InBug-White.png from LinkedIn’s official [in] Logo download pack.",
+      "sourceUrl": "https://brand.linkedin.com/in-logo",
+      "guidelinesUrl": "https://brand.linkedin.com/in-logo",
+      "processing": "Proportionally downscaled to fit a transparent 32x32 PNG canvas; artwork was not recolored, cropped, or stretched."
+    },
+    {
+      "id": "youtube-icon-white",
+      "path": "email-assets/v1/1097e787683b/social/youtube-icon-white-32.png",
+      "mimeType": "image/png",
+      "dimensions": "32x32",
+      "displayDimensions": "24x24",
+      "bytes": 467,
+      "sha256": "1097e787683b082080fd1b6cf4bb072d5e4f7597c8d20fa5ec462ce14442d8bd",
+      "source": "yt_icon_white_digital.png from the official YouTube Icon download pack.",
+      "sourceUrl": "https://brand.youtube/youtube-logo/",
+      "guidelinesUrl": "https://developers.google.com/youtube/terms/branding-guidelines",
+      "processing": "Proportionally downscaled to fit a transparent 32x32 PNG canvas; artwork was not recolored, cropped, or stretched."
     }
+  ],
+  "notes": [
+    "Instagram, LinkedIn and YouTube social PNGs are official-brand-pack assets, proportionally rasterized to transparent 32x32 canvases; the configured social link remains the accessible text fallback.",
+    "No TikTok mark is hosted until TikTok gives written permission; TikTok links remain text-only."
   ]
 }
