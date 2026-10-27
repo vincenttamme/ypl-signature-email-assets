@@ -96,10 +96,39 @@
       "sourceUrl": "https://brand.youtube/youtube-logo/",
       "guidelinesUrl": "https://developers.google.com/youtube/terms/branding-guidelines",
       "processing": "Proportionally downscaled to fit a transparent 32x32 PNG canvas; artwork was not recolored, cropped, or stretched."
+    },
+    {
+      "id": "website-globe-lucide-white",
+      "path": "email-assets/v1/3db367dcc863/icons/website-globe-white-32.png",
+      "mimeType": "image/png",
+      "dimensions": "32x32",
+      "displayDimensions": "16x16",
+      "bytes": 1326,
+      "sha256": "3db367dcc8633f30bd126729ea0bd087dfea826ca6149c84726574d5a77f2880",
+      "source": "Globe icon from @lucide/svelte 1.61.0.",
+      "license": "ISC; see LICENSES/LUCIDE-ISC-LICENSE.txt",
+      "purpose": "Optional website pictogram in email signatures.",
+      "approval": "project owner authorized preparation and public distribution"
+    },
+    {
+      "id": "instagram-glyph-white",
+      "path": "email-assets/v1/b76e2991ff69/social/instagram-glyph-white-32.png",
+      "mimeType": "image/png",
+      "dimensions": "32x32",
+      "displayDimensions": "29x29",
+      "bytes": 1267,
+      "sha256": "b76e2991ff69ffc6a4f8bcdf30af29f7ec71715ff0116bb2ef45a2b07754aea0",
+      "source": "Instagram_Glyph_Gradient.png from the official IG brand asset pack downloaded from Meta's Brand Resource Center.",
+      "sourceUrl": "https://www.meta.com/brand/resources/instagram/instagram-brand/",
+      "processing": "Converted to monochrome white by changing non-transparent pixels to #FFFFFF; the official glyph's alpha contour, geometry, proportions and 32x32 canvas were retained.",
+      "purpose": "White Instagram glyph for dark-background signature icon rows.",
+      "approval": "project owner authorized preparation and public distribution of the white asset variant"
     }
   ],
   "notes": [
     "Instagram, LinkedIn and YouTube social PNGs are official-brand-pack assets, proportionally rasterized to transparent 32x32 canvases; the configured social link remains the accessible text fallback.",
-    "No TikTok mark is hosted until TikTok gives written permission; TikTok links remain text-only."
+    "No TikTok mark is hosted until TikTok gives written permission; TikTok links remain text-only.",
+    "White contact and website icon variants are PNG assets from Lucide; a white Instagram PNG was derived from the official Instagram glyph alpha mask. The application uses only the PNG matching the configured icon color.",
+    "Available approved white icons: website, Mail, Phone, Instagram, LinkedIn, YouTube. No TikTok mark is hosted."
   ]
 }
